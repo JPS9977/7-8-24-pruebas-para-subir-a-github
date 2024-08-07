@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const amountValue = amount.value;
 
         if (from && to && amountValue) {
-            fetch(`https://v6.exchangerate-api.com/v6/31d6499ea660fcc7c2cc9a3e/pair/${from}/${to}/${}`)
+            fetch(`https://v6.exchangerate-api.com/v6/31d6499ea660fcc7c2cc9a3e/latest/USD${from}/${to}/${amountValue}`)
                 .then(response => response.json())
                 .then(data => {
                     result.textContent = `${amountValue} ${from} = ${data.conversion_result} ${to}`;
