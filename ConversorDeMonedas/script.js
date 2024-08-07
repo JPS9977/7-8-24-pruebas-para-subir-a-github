@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const result = document.getElementById('result');
 
     const apiKey = 'TU_API_KEY';  // Reemplaza con tu propia API key de ExchangeRate-API.
-    const apiURL = `https://openexchangerates.org/${abd892e34c9c4e8fb699c9537da3a66a}/latest/USD`;
+    const apiURL = `https://openexchangerates.org/${apiKey}/latest/USD`;
 
     fetch(apiURL)
         .then(response => response.json())
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const amountValue = amount.value;
 
         if (from && to && amountValue) {
-            fetch(`https://openexchangerates.org/${abd892e34c9c4e8fb699c9537da3a66a}/pair/${from}/${to}/${amountValue}`)
+            fetch(`https://openexchangerates.org/${apiKey}/pair/${from}/${to}/${amountValue}`)
                 .then(response => response.json())
                 .then(data => {
                     result.textContent = `${amountValue} ${from} = ${data.conversion_result} ${to}`;
