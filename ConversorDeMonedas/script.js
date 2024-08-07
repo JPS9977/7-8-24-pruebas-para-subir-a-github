@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const result = document.getElementById('result');
 
     const apiKey = '31d6499ea660fcc7c2cc9a3e';  // Reemplaza con tu propia API key de ExchangeRate-API.
-    const apiURL = `https://v6.exchangerate-api.com/v6/${apiKey}/latest/USD`;
+    const apiURL = `https://v6.exchangerate-api.com/v6/${apiKey}/latest/`;
 
     fetch(apiURL)
         .then(response => response.json())
