@@ -27,9 +27,13 @@ Una aplicación simple de conversor de monedas.
 - [ExchangeRate-API](https://www.exchangerate-api.com/)
 
 *Ahora debo conseguir alguna API que me provea de los cambios de monedas
+
 *USARÉ: https://www.exchangerate-api.com/
+
 *Dentro de esta página solo debes registrarte fácilmente y seguir algunos simples pasos propuestos por la misma página
+
 *Nuestra key proveída por la página debe ser utilizada en nuestro script
+
 *Una vez desarrollado el código, debemos abrir nuestro .html en el navegador y realizar las conversiones que queramos.
 
 
