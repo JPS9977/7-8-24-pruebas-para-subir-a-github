@@ -30,7 +30,7 @@ input, select, button {
     margin-right: 10px;
 }
 
-#result {
+.result {
     margin-top: 20px;
     font-size: 18px;
 }
