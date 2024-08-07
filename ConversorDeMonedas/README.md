@@ -25,3 +25,12 @@ Una aplicación simple de conversor de monedas.
 - CSS
 - JavaScript
 - [ExchangeRate-API](https://www.exchangerate-api.com/)
+
+*Ahora debo conseguir alguna API que me provea de los cambios de monedas
+*USARÉ: https://www.exchangerate-api.com/
+*Dentro de esta página solo debes registrarte fácilmente y seguir algunos simples pasos propuestos por la misma página
+*
+
+
+
+
